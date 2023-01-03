@@ -1,0 +1,46 @@
+:root {
+    --bg:  #eee8e4;
+    --dark: #604d40;
+    --headingDark: #39291c;
+    --headingLight: #beac9f;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+/* Styling navigation bar*/
+.navbar {
+    position: sticky;
+    width: 100%;
+    background-color: var(--dark) !important;
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 40px;
+    color: var(--headingLight) !important;
+    text-shadow: var(--headingDark) 1px 1px;
+}
+
+ul.navbar-nav {
+    flex-direction: row;
+}
+
+a.nav-link {
+    font-family: 'Syncopate', sans-serif !important;
+    font-size: 14px;
+    color:var(--headingLight) !important;
+    padding: 20px 20px !important;
+}
+
+/* Styling navbar links on hover*/
+
+.nav-link:hover {
+    text-shadow: var(--headingDark) 8px 8px;
+}
+
