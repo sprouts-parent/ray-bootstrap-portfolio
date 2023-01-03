@@ -44,3 +44,27 @@ a.nav-link {
     text-shadow: var(--headingDark) 8px 8px;
 }
 
+/*Styling hero section/jumbotron*/
+
+.jumbotron {
+    background-image: url(../images/sepia-waves-jumbo.jpeg) ;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 80px;
+    color: var(--bg);
+    text-shadow: var(--headingDark) 2px 2px;
+}
+
+p.lead {
+   color: var(--bg) !important;
+   text-shadow: var(--dark) 1px 1px;
+   font-size: 26px;
+}
+
+p.subJumbo {
+    color: var(--bg) !important;
+    text-shadow: var(--dark) 1px 1px;
+}
